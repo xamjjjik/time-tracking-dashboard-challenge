@@ -18,19 +18,44 @@ body {
   height: 100%;
 }
 .row {
-  /* display: flex;
-  justify-content: center; */
   margin: 10rem 20rem 8rem 20rem;
 }
 .blocks {
-  background-color: hsl(246, 80%, 60%);
+  background-color: hsl(235, 46%, 20%);
   margin-top: 2rem;
   width: 15rem;
   height: 15rem;
   color: white;
+  border-radius: 10%;
+  /* border-top: 3rem solid white;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%; */
+}
+#profile {
+  background-color: hsl(246, 80%, 60%);
+}
+#work {
+  background-color: hsl(15, 100%, 70%);
+}
+#exercise {
+  background-color: hsl(145, 58%, 55%);
+}
+#play {
+  background-color: hsl(195, 74%, 62%);
+}
+#social {
+  background-color: hsl(264, 64%, 52%);
+}
+#study {
+  background-color: hsl(348, 100%, 68%);
+}
+#self-care {
+  background-color: hsl(43, 84%, 65%);
 }
 
 img {
+}
+.photo {
   height: 6rem;
   width: 6rem;
   border: 0.2rem solid white;
