@@ -18,98 +18,151 @@
       href="css/bootstrap.min.css"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="css/style.css"
+    />
 
     <title>Frontend Mentor | Time tracking dashboard</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
-    Report for Jeremy Robson Daily Weekly Monthly Work 5hrs
-    <!-- daily -->
-    Previous - 7hrs
-    <!-- daily -->
-    32hrs
-    <!-- weekly -->
-    Previous - 36hrs
-    <!-- weekly -->
-    103hrs
-    <!-- monthly -->
-    Previous - 128hrs
-    <!-- monthly -->
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-xl-3 col-sm-12">
+          <div
+            class="blocks"
+            id="profile"
+          >
+            <p>
+              <img
+                src="images/image-jeremy.png"
+                alt="Jeremy Robson"
+              />
+            </p>
+            <p>Report for</p>
+            <p></p>
+            Jeremy Robson
+          </div>
+          <div
+            class="blocks"
+            id="menu"
+          >
+            Daily Weekly Monthly
+          </div>
+        </div>
+        <div class="col-xl-3 col-sm-12">
+          <div
+            class="blocks"
+            id="work"
+          >
+            Work 5hrs
+            <!-- daily -->
+            Previous - 7hrs
+            <!-- daily -->
+            32hrs
+            <!-- weekly -->
+            Previous - 36hrs
+            <!-- weekly -->
+            103hrs
+            <!-- monthly -->
+            Previous - 128hrs
+            <!-- monthly -->
+          </div>
 
-    Play 1hr
-    <!-- daily -->
-    Previous - 2hrs
-    <!-- daily -->
-    10hrs
-    <!-- weekly -->
-    Previous - 8hrs
-    <!-- weekly -->
-    23hrs
-    <!-- monthly -->
-    Previous - 29hrs
-    <!-- monthly -->
+          <div
+            class="blocks"
+            id="exercise"
+          >
+            Exercise 1hr
+            <!-- daily -->
+            Previous - 1hr
+            <!-- daily -->
+            4hrs
+            <!-- weekly -->
+            Previous - 5hrs
+            <!-- weekly -->
+            11hrs
+            <!-- monthly -->
+            Previous - 18hrs
+            <!-- monthly -->
+          </div>
+        </div>
+        <div class="col-xl-3 col-sm-12">
+          <div
+            class="blocks"
+            id="play"
+          >
+            Play 1hr
+            <!-- daily -->
+            Previous - 2hrs
+            <!-- daily -->
+            10hrs
+            <!-- weekly -->
+            Previous - 8hrs
+            <!-- weekly -->
+            23hrs
+            <!-- monthly -->
+            Previous - 29hrs
+            <!-- monthly -->
+          </div>
 
-    Study 0hrs
-    <!-- daily -->
-    Previous - 1hr
-    <!-- daily -->
-    4hrs
-    <!-- weekly -->
-    Previous - 7hrs
-    <!-- weekly -->
-    13hrs
-    <!-- monthly -->
-    Previous - 19hrs
-    <!-- monthly -->
+          <div
+            class="blocks"
+            id="social"
+          >
+            Social 1hr
+            <!-- daily -->
+            Previous - 3hrs
+            <!-- daily -->
+            5hrs
+            <!-- weekly -->
+            Previous - 10hrs
+            <!-- weekly -->
+            21hrs
+            <!-- monthly -->
+            Previous - 23hrs
+            <!-- monthly -->
+          </div>
+        </div>
+        <div class="col-xl-3 col-sm-12">
+          <div
+            class="blocks"
+            id="study"
+          >
+            Study 0hrs
+            <!-- daily -->
+            Previous - 1hr
+            <!-- daily -->
+            4hrs
+            <!-- weekly -->
+            Previous - 7hrs
+            <!-- weekly -->
+            13hrs
+            <!-- monthly -->
+            Previous - 19hrs
+            <!-- monthly -->
+          </div>
 
-    Exercise 1hr
-    <!-- daily -->
-    Previous - 1hr
-    <!-- daily -->
-    4hrs
-    <!-- weekly -->
-    Previous - 5hrs
-    <!-- weekly -->
-    11hrs
-    <!-- monthly -->
-    Previous - 18hrs
-    <!-- monthly -->
-
-    Social 1hr
-    <!-- daily -->
-    Previous - 3hrs
-    <!-- daily -->
-    5hrs
-    <!-- weekly -->
-    Previous - 10hrs
-    <!-- weekly -->
-    21hrs
-    <!-- monthly -->
-    Previous - 23hrs
-    <!-- monthly -->
-
-    Self Care 0hrs
-    <!-- daily -->
-    Previous - 1hr
-    <!-- daily -->
-    2hrs
-    <!-- weekly -->
-    Previous - 2hrs
-    <!-- weekly -->
-    7hrs
-    <!-- monthly -->
-    Previous - 11hrs
-    <!-- monthly -->
+          <div
+            class="blocks"
+            id="self"
+          >
+            Self Care 0hrs
+            <!-- daily -->
+            Previous - 1hr
+            <!-- daily -->
+            2hrs
+            <!-- weekly -->
+            Previous - 2hrs
+            <!-- weekly -->
+            7hrs
+            <!-- monthly -->
+            Previous - 11hrs
+            <!-- monthly -->
+          </div>
+        </div>
+      </div>
+    </div>
 
     <div class="attribution">
       Challenge by
@@ -120,5 +173,8 @@
       >. Coded by <a href="#">Your Name Here</a>.
     </div>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script defer>
+      src = "js/index.js";
+    </script>
   </body>
 </html>
