@@ -31,30 +31,53 @@ body {
   border-top-left-radius: 10%;
   border-top-right-radius: 10%; */
 }
+.text {
+  margin-top: 2rem;
+  height: 12rem;
+}
+.fields {
+  background-repeat: no-repeat;
+  background-position: top -0.5rem right 1rem;
+  background-size: 5rem;
+  padding-top: 1rem;
+}
 #profile {
   background-color: hsl(246, 80%, 60%);
+  height: 20rem;
+}
+#menu {
+  height: 32rem;
+  padding-bottom: 10rem;
 }
 #work {
   background-color: hsl(15, 100%, 70%);
+  background-image: url(../images/icon-work.svg);
 }
 #exercise {
   background-color: hsl(145, 58%, 55%);
+  background-image: url(../images/icon-exercise.svg);
 }
 #play {
   background-color: hsl(195, 74%, 62%);
+  background-image: url(../images/icon-play.svg);
 }
 #social {
   background-color: hsl(264, 64%, 52%);
+  background-image: url(../images/icon-social.svg);
 }
 #study {
   background-color: hsl(348, 100%, 68%);
+  background-image: url(../images/icon-study.svg);
 }
 #self-care {
   background-color: hsl(43, 84%, 65%);
+  background-image: url(../images/icon-self-care.svg);
 }
+/* img {
+  height: 3rem;
+  width: 3rem;
+} */
 
-img {
-}
 .photo {
   height: 6rem;
   width: 6rem;
