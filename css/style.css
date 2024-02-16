@@ -19,7 +19,7 @@ body {
   font-family: "Rubik";
 }
 .row {
-  margin: 10rem 20rem 8rem 20rem;
+  margin: 15rem 10rem 15rem 10rem;
 }
 .blocks {
   background-color: hsl(235, 46%, 20%);
