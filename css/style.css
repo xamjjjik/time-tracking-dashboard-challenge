@@ -86,7 +86,35 @@ body {
   background-color: hsl(43, 84%, 65%);
   background-image: url(../images/icon-self-care.svg);
 }
+.topic {
+  text-align: left;
+  /* margin-top: 2rem; */
+  /* word-spacing: 7rem; */
+  padding-left: 2rem;
+  padding-top: 1.5rem;
+}
+button {
+  vertical-align: top;
+  background-color: hsl(235, 46%, 20%);
+  border: none;
+  color: white;
+}
+button span {
+  padding-left: 5rem;
+  vertical-align: top;
+  line-height: 1rem;
+}
 
+.hours {
+  font-size: 3.5rem;
+
+  padding-left: 2rem;
+  font-weight: 300;
+}
+.last-hours {
+  padding-left: 2rem;
+  color: #c2c2c2;
+}
 img {
   height: 6rem;
   width: 6rem;
